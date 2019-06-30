@@ -58,11 +58,11 @@ Project V 是一个工具集合，它可以帮助你打造专属的基础通信�
 
 预编译的压缩包可以在如下几个站点找到：
 
-* Github Release: github.com/v2ray/v2ray-core
-* Github 分流: github.com/v2ray/dist
-* Homebrew: github.com/v2ray/homebrew-v2ray
-* Arch Linux: packages/community/x86_64/v2ray/
-* Snapcraft: snapcraft.io/v2ray-core
+* Github Release: [github.com/v2ray/v2ray-core](https://github.com/v2ray/v2ray-core/releases)
+* Github 分流: [github.com/v2ray/dist](https://github.com/v2ray/dist/)
+* Homebrew: [github.com/v2ray/homebrew-v2ray](https://github.com/v2ray/homebrew-v2ray)
+* Arch Linux: [packages/community/x86_64/v2ray/](https://www.archlinux.org/packages/community/x86_64/v2ray/)
+* Snapcraft: [snapcraft.io/v2ray-core](https://snapcraft.io/v2ray-core)
 
 压缩包均为 zip 格式，找到对应平台的压缩包，下载解压即可使用。
 
