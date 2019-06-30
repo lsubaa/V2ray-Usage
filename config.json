@@ -1,3 +1,9 @@
+//
+//  v2ray config.json
+//  
+//
+//  Created by st4swift on 6/30/19.
+
 {
   "inbounds": [{
     "port": 443,
