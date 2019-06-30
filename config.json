@@ -1,0 +1,38 @@
+{
+  "inbounds": [{
+    "port": 443,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [
+        {
+          "id": "e0c2f5b2-3826-8dc5-cc7b-b80cc4b7e048",
+          "level": 1,
+          "alterId": 64
+        },
+        {
+          "id": "f1b2ed91-7fd6-c71e-50b9-ea40772797a8",
+          "level": 1,
+          "alterId": 64
+        }
+      ]
+    }
+  }],
+
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  },{
+    "protocol": "blackhole",
+    "settings": {},
+    "tag": "blocked"
+  }],
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "ip": ["geoip:private"],
+        "outboundTag": "blocked"
+      }
+    ]
+  }
+}
