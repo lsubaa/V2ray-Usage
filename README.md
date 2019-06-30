@@ -40,6 +40,45 @@ Project V 是一个工具集合，它可以帮助你打造专属的基础通信�
 
 ---
 
+## 下载安装
+
+**平台支持**
+
+**V2Ray 在以下平台中可用：**
+
+* Windows 7 及之后版本（x86 / amd64）；
+* Mac OS X 10.10 Yosemite 及之后版本（amd64）；
+* Linux 2.6.23 及之后版本（x86 / amd64 / arm / arm64 / mips64 / mips）；
+* 包括但不限于 Debian 7 / 8、Ubuntu 12.04 / 14.04 及后续版本、CentOS 6 / 7、Arch Linux；
+* FreeBSD (x86 / amd64)；
+* OpenBSD (x86 / amd64)；
+* Dragonfly BSD (amd64)；
+
+### 下载 V2Ray
+
+预编译的压缩包可以在如下几个站点找到：
+
+* Github Release: github.com/v2ray/v2ray-core
+* Github 分流: github.com/v2ray/dist
+* Homebrew: github.com/v2ray/homebrew-v2ray
+* Arch Linux: packages/community/x86_64/v2ray/
+* Snapcraft: snapcraft.io/v2ray-core
+
+压缩包均为 zip 格式，找到对应平台的压缩包，下载解压即可使用。
+
+**验证安装包**
+
+V2Ray 提供两种验证方式：
+
+* 安装包 zip 文件的 SHA1 / SHA256 摘要，在每个安装包对应的.dgst文件中可以找到。
+* 可运行程序（v2ray 或 v2ray.exe）的 gpg 签名，文件位于安装包中的 v2ray.sig 或 v2ray.exe.sig。签名公钥可以在代码库中找到。
+
+**Windows 和 Mac OS 安装方式**
+
+通过上述方式下载的压缩包，解压之后可看到 v2ray 或 v2ray.exe。直接运行即可。
+
+---
+
 ## Linux 安装脚本
 
 V2Ray 提供了一个在 Linux 中的自动化安装脚本。这个脚本会自动检测有没有安装过 V2Ray，如果没有，则进行完整的安装和配置；如果之前安装过 V2Ray，则只更新 V2Ray 二进制程序而不更新配置。
