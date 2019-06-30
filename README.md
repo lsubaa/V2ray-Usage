@@ -18,6 +18,7 @@ Project V 是一个工具集合，它可以帮助你打造专属的基础通信�
 **详见**
   * [V2ray官网，需要over the Wall才能看到](https://www.v2ray.com)
   * [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
+  * [V2Ray 配置指南](https://toutyrater.github.io)
 
 **简易用法**
 
