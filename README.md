@@ -16,14 +16,23 @@ Project V 是一个工具集合，它可以帮助你打造专属的基础通信�
 * 多平台支持: 原生支持所有常见平台，如 Windows、Mac OS、Linux，并已有第三方支持移动平台。
 
 **详见**
-  * [V2ray官网 over the Wall](https://www.v2ray.com)
+  * [V2ray官网，需要over the Wall才能看到](https://www.v2ray.com)
   * [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
 
 **简易用法**
 
+   **server(linux)**
 
+```shell
+   bash <(curl -L -s https://install.direct/go.sh)
+   # 使用 service v2ray start|stop|status|reload|restart|force-reload 控制 V2Ray 的运行
+```
 
-
+ **client(macOS)**
+ 
+  * [V2rayU](https://github.com/yanue/v2rayu)
+  * [V2rayX](https://github.com/Cenmrev/V2RayX)
+ 
 ---
 
 ## Linux 安装脚本
