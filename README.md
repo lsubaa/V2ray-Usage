@@ -33,6 +33,10 @@ Project V 是一个工具集合，它可以帮助你打造专属的基础通信�
   * [V2rayU](https://github.com/yanue/v2rayu)
   * [V2rayX](https://github.com/Cenmrev/V2RayX)
  
+  **set** 
+   * local Sock Por: 1081
+   * local Http Port: 8001
+
 ---
 
 ## Linux 安装脚本
